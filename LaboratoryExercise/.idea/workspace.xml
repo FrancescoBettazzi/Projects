@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="LaboratoryExercise" targetName="LaboratoryExercise" />
+      <config projectName="LaboratoryExercise" targetName="core" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b536480d-d6e2-45a7-9a03-616c89c0d985" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-core" />
+  </component>
+  <component name="ProjectId" id="1Q9cqP8Z7WAhWKY8Sq4FXo9grkd" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.LaboratoryExercise">
+    <configuration name="LaboratoryExercise" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LaboratoryExercise" TARGET_NAME="LaboratoryExercise" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LaboratoryExercise" RUN_TARGET_NAME="LaboratoryExercise">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LaboratoryExercise" TARGET_NAME="core" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.core" />
+      <item itemvalue="CMake Application.LaboratoryExercise" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b536480d-d6e2-45a7-9a03-616c89c0d985" name="Default Changelist" comment="" />
+      <created>1567186442999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567186442999</updated>
+      <workItem from="1567186444078" duration="1278000" />
+      <workItem from="1567244274910" duration="1344000" />
+      <workItem from="1567354675351" duration="599000" />
+      <workItem from="1567414035915" duration="2179000" />
+      <workItem from="1567527524019" duration="1563000" />
+      <workItem from="1567529100570" duration="148000" />
+      <workItem from="1567604332833" duration="4530000" />
+      <workItem from="1567851558361" duration="156000" />
+      <workItem from="1568450384251" duration="5043000" />
+      <workItem from="1568480669325" duration="418000" />
+      <workItem from="1568625443252" duration="2139000" />
+      <workItem from="1568649811581" duration="2591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

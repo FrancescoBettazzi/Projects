@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LaboratoryExercise"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LaboratoryExercise">
+				<Option output="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/LaboratoryExercise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaboratoryExercise"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LaboratoryExercise/fast">
+				<Option output="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/LaboratoryExercise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaboratoryExercise/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core">
+				<Option output="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/LaboratoryExercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Chat.cpp">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Chat.h">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.cpp">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.h">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Message.h">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.cpp">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Observer.h">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Schedule.h">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Subject.h">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Test/runAllTests.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Test/testChat.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/Test/testMessage.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/User.h">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/main.cpp">
+			<Option target="LaboratoryExercise"/>
+		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/LaboratoryExercise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

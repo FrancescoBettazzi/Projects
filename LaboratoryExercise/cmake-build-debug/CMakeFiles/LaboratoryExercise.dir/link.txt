@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/LaboratoryExercise.dir/main.cpp.o CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o  -o LaboratoryExercise libcore.a 
