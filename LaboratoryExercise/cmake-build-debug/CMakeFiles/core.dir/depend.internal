@@ -5,9 +5,7 @@ CMakeFiles/core.dir/Test/runAllTests.cpp.o
  /home/francesco/CLionProjects/LaboratoryExercise/Test/runAllTests.cpp
 CMakeFiles/core.dir/Test/testChat.cpp.o
  /home/francesco/CLionProjects/LaboratoryExercise/Chat.h
- /home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.h
  /home/francesco/CLionProjects/LaboratoryExercise/Message.h
- /home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h
  /home/francesco/CLionProjects/LaboratoryExercise/Observer.h
  /home/francesco/CLionProjects/LaboratoryExercise/Schedule.h
  /home/francesco/CLionProjects/LaboratoryExercise/Subject.h
@@ -15,9 +13,7 @@ CMakeFiles/core.dir/Test/testChat.cpp.o
  /home/francesco/CLionProjects/LaboratoryExercise/User.h
 CMakeFiles/core.dir/Test/testMessage.cpp.o
  /home/francesco/CLionProjects/LaboratoryExercise/Chat.h
- /home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.h
  /home/francesco/CLionProjects/LaboratoryExercise/Message.h
- /home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h
  /home/francesco/CLionProjects/LaboratoryExercise/Observer.h
  /home/francesco/CLionProjects/LaboratoryExercise/Schedule.h
  /home/francesco/CLionProjects/LaboratoryExercise/Subject.h

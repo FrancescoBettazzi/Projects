@@ -4,7 +4,7 @@
 
 #include "MessageNotifier.h"
 
-MessageNotifier::MessageNotifier(bool a, Chat *sub) : active(a), subject(sub) {
+MessageNotifier::MessageNotifier(bool a, Chat* sub) : active(a), subject(sub) {
 
 }
 

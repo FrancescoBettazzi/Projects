@@ -1,16 +1,23 @@
 //
 // Created by francesco on 30/08/19.
 //
-#include <iostream>
-#include "Schedule.h"
-#include "User.h"
+
 
 #ifndef LABORATORYEXERCISE_MESSAGE_H
 #define LABORATORYEXERCISE_MESSAGE_H
 
+#include <iostream>
+#include "Schedule.h"
+#include "User.h"
+
+class User;
 class Message {
 public:
-    explicit Message(User* se, User* re, std::string te, bool r=false) : sender(se->getName()), receiver(re->getName()), text(te), read(r), schedule(Schedule(0,0,0)) {}
+    explicit Message(User* se, User* re, std::string te, bool r = false) : sender(se->getName()),
+                                                                           receiver(re->getName()), text(te), read(r),
+                                                                           schedule(Schedule(0, 0, 0)) {
+
+    }
 
     bool isRead() const {
         return read;

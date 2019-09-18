@@ -4,9 +4,7 @@
 CMakeFiles/core.dir/Test/runAllTests.cpp.o: ../Test/runAllTests.cpp
 
 CMakeFiles/core.dir/Test/testChat.cpp.o: ../Chat.h
-CMakeFiles/core.dir/Test/testChat.cpp.o: ../IconBadgeMonitor.h
 CMakeFiles/core.dir/Test/testChat.cpp.o: ../Message.h
-CMakeFiles/core.dir/Test/testChat.cpp.o: ../MessageNotifier.h
 CMakeFiles/core.dir/Test/testChat.cpp.o: ../Observer.h
 CMakeFiles/core.dir/Test/testChat.cpp.o: ../Schedule.h
 CMakeFiles/core.dir/Test/testChat.cpp.o: ../Subject.h
@@ -14,9 +12,7 @@ CMakeFiles/core.dir/Test/testChat.cpp.o: ../Test/testChat.cpp
 CMakeFiles/core.dir/Test/testChat.cpp.o: ../User.h
 
 CMakeFiles/core.dir/Test/testMessage.cpp.o: ../Chat.h
-CMakeFiles/core.dir/Test/testMessage.cpp.o: ../IconBadgeMonitor.h
 CMakeFiles/core.dir/Test/testMessage.cpp.o: ../Message.h
-CMakeFiles/core.dir/Test/testMessage.cpp.o: ../MessageNotifier.h
 CMakeFiles/core.dir/Test/testMessage.cpp.o: ../Observer.h
 CMakeFiles/core.dir/Test/testMessage.cpp.o: ../Schedule.h
 CMakeFiles/core.dir/Test/testMessage.cpp.o: ../Subject.h

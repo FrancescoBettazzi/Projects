@@ -8,8 +8,8 @@
 
 #include "Observer.h"
 #include "Chat.h"
+#include "Message.h"
 
-class Chat;
 class MessageNotifier : public Observer {
 public:
     MessageNotifier(bool a, Chat* sub);

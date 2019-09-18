@@ -6,21 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/francesco/CLionProjects/LaboratoryExercise/Chat.cpp
-Chat.h
-/home/francesco/CLionProjects/LaboratoryExercise/Chat.h
-
 /home/francesco/CLionProjects/LaboratoryExercise/Chat.h
 Subject.h
 /home/francesco/CLionProjects/LaboratoryExercise/Subject.h
-Message.h
-/home/francesco/CLionProjects/LaboratoryExercise/Message.h
 User.h
 /home/francesco/CLionProjects/LaboratoryExercise/User.h
-
-/home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.cpp
-IconBadgeMonitor.h
-/home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.h
 
 /home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.h
 Observer.h
@@ -35,10 +25,6 @@ Schedule.h
 /home/francesco/CLionProjects/LaboratoryExercise/Schedule.h
 User.h
 /home/francesco/CLionProjects/LaboratoryExercise/User.h
-
-/home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.cpp
-MessageNotifier.h
-/home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h
 
 /home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h
 Observer.h
@@ -63,12 +49,20 @@ Observer.h
 /home/francesco/CLionProjects/LaboratoryExercise/User.h
 list
 -
+MessageNotifier.h
+/home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h
+IconBadgeMonitor.h
+/home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.h
 
 /home/francesco/CLionProjects/LaboratoryExercise/main.cpp
 iostream
 -
 Chat.h
 /home/francesco/CLionProjects/LaboratoryExercise/Chat.h
+User.h
+/home/francesco/CLionProjects/LaboratoryExercise/User.h
+Message.h
+/home/francesco/CLionProjects/LaboratoryExercise/Message.h
 MessageNotifier.h
 /home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h
 IconBadgeMonitor.h

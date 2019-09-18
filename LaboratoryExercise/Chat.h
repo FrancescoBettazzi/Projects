@@ -5,20 +5,22 @@
 #ifndef LABORATORYEXERCISE_CHAT_H
 #define LABORATORYEXERCISE_CHAT_H
 
-
 #include "Subject.h"
+#include "Observer.h"
 #include "Message.h"
 #include "User.h"
 
+class Message;
 class User;
 class Chat : public Subject {
 public:
-    Chat(User* u1, User* u2);
+    explicit Chat(User *u1, User *u2);
+
     ~Chat();
 
-    void addMessage(const Message& newMsg);
+    void addMessage(const Message &newMsg);
 
-    const Message& lastMessage() const;
+    const Message &lastMessage() const;
 
     void readMessage(int i);
 
@@ -39,10 +41,10 @@ public:
     void setOtherName(User *otherName);
 
 private:
-    std::list<Observer*> observers;
-    std::vector<Message> messages;
-    User* myName;
-    User* otherName;
+    std::list<Observer *> observers;
+    std::vector<Message> messages;  //std::shared_ptr<Message>
+    User *myName; //std::shared_ptr<User>
+    User *otherName;
 };
 
 

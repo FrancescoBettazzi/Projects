@@ -3,27 +3,25 @@
 
 CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../Chat.cpp
 CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../Chat.h
-CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../Message.h
+CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../IconBadgeMonitor.h
+CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../MessageNotifier.h
 CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../Observer.h
-CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../Schedule.h
 CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../Subject.h
 CMakeFiles/LaboratoryExercise.dir/Chat.cpp.o: ../User.h
 
 CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../Chat.h
 CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../IconBadgeMonitor.cpp
 CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../IconBadgeMonitor.h
-CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../Message.h
+CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../MessageNotifier.h
 CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../Observer.h
-CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../Schedule.h
 CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../Subject.h
 CMakeFiles/LaboratoryExercise.dir/IconBadgeMonitor.cpp.o: ../User.h
 
 CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../Chat.h
-CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../Message.h
+CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../IconBadgeMonitor.h
 CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../MessageNotifier.cpp
 CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../MessageNotifier.h
 CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../Observer.h
-CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../Schedule.h
 CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../Subject.h
 CMakeFiles/LaboratoryExercise.dir/MessageNotifier.cpp.o: ../User.h
 

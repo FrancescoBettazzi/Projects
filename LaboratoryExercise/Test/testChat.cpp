@@ -3,7 +3,9 @@
 //
 
 #include "gtest/gtest.h"
+#include "../User.h"
 #include "../Chat.h"
+#include "../Message.h"
 
 TEST(Chat, Message) {
     auto f = new User("Francesco");
@@ -16,5 +18,7 @@ TEST(Chat, Message) {
     c->getUnreadMessages();
     c->lastMessage();
 
+    delete a;
+    delete f;
     delete c;
 }

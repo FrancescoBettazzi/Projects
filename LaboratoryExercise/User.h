@@ -6,11 +6,10 @@
 #define LABORATORYEXERCISE_USER_H
 
 #include <list>
-#include "MessageNotifier.h"
-#include "IconBadgeMonitor.h"
+#include <iostream>
 #include "Chat.h"
 
-class Chat;
+
 class User {
 public:
     User(std::string n) : name(n) {
@@ -31,10 +30,6 @@ public:
 
     void addChat(Chat* ch) {
         chats.push_back(ch);
-        MessageNotifier messageNotifier = MessageNotifier(true, ch);
-        IconBadgeMonitor iconBadgeMonitor = IconBadgeMonitor(ch);
-        messageNotifier.attach();
-        iconBadgeMonitor.attach();
     }
 
     void removeChat(Chat* ch) {

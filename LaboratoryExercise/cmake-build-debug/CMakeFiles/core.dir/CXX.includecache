@@ -9,16 +9,12 @@
 /home/francesco/CLionProjects/LaboratoryExercise/Chat.h
 Subject.h
 /home/francesco/CLionProjects/LaboratoryExercise/Subject.h
+Observer.h
+/home/francesco/CLionProjects/LaboratoryExercise/Observer.h
 Message.h
 /home/francesco/CLionProjects/LaboratoryExercise/Message.h
 User.h
 /home/francesco/CLionProjects/LaboratoryExercise/User.h
-
-/home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.h
-Observer.h
-/home/francesco/CLionProjects/LaboratoryExercise/Observer.h
-Chat.h
-/home/francesco/CLionProjects/LaboratoryExercise/Chat.h
 
 /home/francesco/CLionProjects/LaboratoryExercise/Message.h
 iostream
@@ -27,12 +23,6 @@ Schedule.h
 /home/francesco/CLionProjects/LaboratoryExercise/Schedule.h
 User.h
 /home/francesco/CLionProjects/LaboratoryExercise/User.h
-
-/home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h
-Observer.h
-/home/francesco/CLionProjects/LaboratoryExercise/Observer.h
-Chat.h
-/home/francesco/CLionProjects/LaboratoryExercise/Chat.h
 
 /home/francesco/CLionProjects/LaboratoryExercise/Observer.h
 iostream
@@ -48,6 +38,16 @@ list
 Observer.h
 /home/francesco/CLionProjects/LaboratoryExercise/Observer.h
 
+/home/francesco/CLionProjects/LaboratoryExercise/Test/testChat.cpp
+gtest/gtest.h
+/home/francesco/CLionProjects/LaboratoryExercise/Test/gtest/gtest.h
+../User.h
+/home/francesco/CLionProjects/LaboratoryExercise/User.h
+../Chat.h
+/home/francesco/CLionProjects/LaboratoryExercise/Chat.h
+../Message.h
+/home/francesco/CLionProjects/LaboratoryExercise/Message.h
+
 /home/francesco/CLionProjects/LaboratoryExercise/Test/testMessage.cpp
 gtest/gtest.h
 -
@@ -57,10 +57,8 @@ gtest/gtest.h
 /home/francesco/CLionProjects/LaboratoryExercise/User.h
 list
 -
-MessageNotifier.h
-/home/francesco/CLionProjects/LaboratoryExercise/MessageNotifier.h
-IconBadgeMonitor.h
-/home/francesco/CLionProjects/LaboratoryExercise/IconBadgeMonitor.h
+iostream
+-
 Chat.h
 /home/francesco/CLionProjects/LaboratoryExercise/Chat.h
 

@@ -4,7 +4,7 @@
 
 #include "IconBadgeMonitor.h"
 
-IconBadgeMonitor::IconBadgeMonitor(Chat *sub) : subject(sub) {
+IconBadgeMonitor::IconBadgeMonitor(Chat* sub) : subject(sub) {
 
 }
 

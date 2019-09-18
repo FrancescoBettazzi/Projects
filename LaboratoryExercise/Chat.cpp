@@ -4,20 +4,20 @@
 
 #include "Chat.h"
 
-Chat::Chat(User* u1, User* u2) : myName(u1), otherName(u2) {
+Chat::Chat(User *u1, User *u2) : myName(u1), otherName(u2) {
+
 }
 
 Chat::~Chat() {
     for (auto obs:observers)
         unsubscribe(obs);
-    delete myName;
-    delete otherName;
 }
 
 void Chat::addMessage(const Message &newMsg) {
-    if((myName->getName()==newMsg.getReceiver() || myName->getName()==newMsg.getSender()) && (otherName->getName()==newMsg.getSender() || otherName->getName()==newMsg.getReceiver()))
+    if ((myName->getName() == newMsg.getReceiver() || myName->getName() == newMsg.getSender()) &&
+        (otherName->getName() == newMsg.getSender() || otherName->getName() == newMsg.getReceiver()))
         messages.push_back(newMsg);
-    if(myName->getName()==newMsg.getReceiver())
+    if (myName->getName() == newMsg.getReceiver())
         this->notify();
 }
 
@@ -26,19 +26,18 @@ const Message &Chat::lastMessage() const {
 }
 
 void Chat::readMessage(int i) {
-    if(i>0 && i<messages.size()) {
-        if(messages[i].getSender() == myName->getName()) {
+    if (i > 0 && i < messages.size()) {
+        if (messages[i].getSender() == myName->getName()) {
             messages[i].setRead(true);
             this->notify();
         }
-    }
-    else
+    } else
         throw std::out_of_range("out of range");
 }
 
 int Chat::getUnreadMessages() const {
-    int i=0;
-    for(const auto& message:messages) {
+    int i = 0;
+    for (const auto &message:messages) {
         if (message.getReceiver() == myName->getName()) {
             if (!message.isRead())
                 i++;
@@ -47,16 +46,8 @@ int Chat::getUnreadMessages() const {
     return i;
 }
 
-void Chat::subscribe(Observer *obj) {
-    observers.push_back(obj);
-}
-
-void Chat::unsubscribe(Observer *obj) {
-    observers.remove(obj);
-}
-
 void Chat::notify() {
-    for(auto observer:observers)
+    for (auto observer:observers)
         observer->update();
 }
 
@@ -74,4 +65,12 @@ User *Chat::getOtherName() const {
 
 void Chat::setOtherName(User *otherName) {
     Chat::otherName = otherName;
+}
+
+void Chat::subscribe(Observer *obj) {
+    observers.push_back(obj);
+}
+
+void Chat::unsubscribe(Observer *obj) {
+    observers.remove(obj);
 }
