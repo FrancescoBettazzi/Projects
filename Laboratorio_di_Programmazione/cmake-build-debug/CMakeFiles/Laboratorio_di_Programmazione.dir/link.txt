@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Laboratorio_di_Programmazione.dir/main.cpp.o CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.o CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o  -o Laboratorio_di_Programmazione 
