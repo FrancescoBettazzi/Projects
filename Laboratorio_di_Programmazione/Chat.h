@@ -8,22 +8,21 @@
 #include "Subject.h"
 #include "Observer.h"
 #include "Message.h"
-#include "User.h"
 #include <list>
 #include <vector>
 #include <memory>
 
 class Chat : public Subject {
 public:
-    explicit Chat(std::shared_ptr<User> u1, std::shared_ptr<User> u2);
+    explicit Chat(std::string se, std::string re);
 
     ~Chat();
 
-    void addMessage(const Message &newMsg);
+    void addMessage(const std::shared_ptr<Message> newMsg);
 
-    const Message lastMessage() const;
+    const std::shared_ptr<Message> &lastMessage() const;
 
-    void readMessage(int i);
+    void setReadByPosition(int i);
 
     int getUnreadMessages() const;
 
@@ -33,19 +32,21 @@ public:
 
     void notify() override;
 
-    const std::shared_ptr<User> &getMyName() const;
+    const std::string &getMyName() const;
 
-    void setMyName(const std::shared_ptr<User> &myName);
+    void setMyName(const std::string &myName);
 
-    const std::shared_ptr<User> &getOtherName() const;
+    const std::string &getOtherName() const;
 
-    void setOtherName(const std::shared_ptr<User> &otherName);
+    void setOtherName(const std::string &otherName);
+
+    void setTextByPosition (int pos, std::string text);
 
 private:
     std::list<std::shared_ptr<Observer>> observers;
-    std::vector<Message> messages;  //std::shared_ptr<Message>
-    std::shared_ptr<User> myName; //std::shared_ptr<User>
-    std::shared_ptr<User> otherName;
+    std::vector<std::shared_ptr<Message>> messages;
+    std::string myName;
+    std::string otherName;
 };
 
 

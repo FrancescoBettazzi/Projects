@@ -13,8 +13,6 @@ Observer.h
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Observer.h
 Message.h
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Message.h
-User.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/User.h
 list
 -
 vector
@@ -37,8 +35,6 @@ memory
 -
 Schedule.h
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Schedule.h
-User.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/User.h
 
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.h
 Observer.h
@@ -79,6 +75,8 @@ iostream
 -
 memory
 -
+Chat.h
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.h
 
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/main.cpp
 iostream

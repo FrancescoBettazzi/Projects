@@ -24,6 +24,10 @@ public:
 
     void draw(std::string x, std::string y);
 
+    bool isActive() const;
+
+    void setActive(bool active);
+
 private:
     bool active;
     std::shared_ptr<Chat> subject;

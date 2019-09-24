@@ -7,7 +7,6 @@ CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.o: ../Message.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.o: ../Observer.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.o: ../Schedule.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.o: ../Subject.h
-CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.o: ../User.h
 
 CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o: ../Chat.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o: ../IconBadgeMonitor.cpp
@@ -16,7 +15,6 @@ CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o: ../Message.
 CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o: ../Observer.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o: ../Schedule.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o: ../Subject.h
-CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o: ../User.h
 
 CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o: ../Chat.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o: ../Message.h
@@ -25,7 +23,6 @@ CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o: ../MessageNo
 CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o: ../Observer.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o: ../Schedule.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o: ../Subject.h
-CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o: ../User.h
 
 CMakeFiles/Laboratorio_di_Programmazione.dir/main.cpp.o: ../Chat.h
 CMakeFiles/Laboratorio_di_Programmazione.dir/main.cpp.o: ../IconBadgeMonitor.h

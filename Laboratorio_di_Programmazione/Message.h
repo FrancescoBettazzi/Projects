@@ -9,12 +9,11 @@
 #include <iostream>
 #include <memory>
 #include "Schedule.h"
-#include "User.h"
 
 class Message {
 public:
-    explicit Message(std::shared_ptr<User> se, std::shared_ptr<User> re, std::string te, bool r = false) : sender(se->getName()),
-                                                                           receiver(re->getName()), text(te), read(r),
+    explicit Message(std::string se, std::string re, std::string te, bool r = false) : sender(se),
+                                                                           receiver(re), text(te), read(r),
                                                                            schedule(Schedule(0, 0, 0)) {
 
     }
@@ -23,7 +22,7 @@ public:
         return read;
     }
 
-    void setRead(bool read) {
+    void setRead(bool read = true) {
         Message::read = read;
     }
 
@@ -51,6 +50,13 @@ public:
         Message::text = text;
     }
 
+    bool operator==(const std::shared_ptr<Message> &right) const {
+        return (right->getText() == this->getText() && right->getSender() == this->getSender() && right->getReceiver() == this->getReceiver() && right->isRead() == this->isRead());
+    }
+
+    bool operator!=(const std::shared_ptr<Message> &right) const {
+        return !(right == std::make_shared<Message>(*this));
+    }
 private:
     bool read;
     std::string sender;

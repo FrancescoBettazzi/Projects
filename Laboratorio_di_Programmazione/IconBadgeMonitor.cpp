@@ -24,6 +24,6 @@ void IconBadgeMonitor::update() {
     this->draw(subject->getUnreadMessages());
 }
 
-void IconBadgeMonitor::draw(int um) {
-    std::cout << "Hai " << um << " messaggi non letti" << std::endl;
+void IconBadgeMonitor::draw(int num) {
+    std::cout << "Hai " << num << " messaggi non letti" << std::endl;
 }
