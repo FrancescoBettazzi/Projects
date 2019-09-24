@@ -33,11 +33,11 @@ public:
             throw std::runtime_error("Error in users");
     }
 
-    void removeChat(const std::shared_ptr<User> &re) {
+    void removeChat(const std::shared_ptr<User> re) {
         chats.remove(findChat(re));
     }
 
-    void setReadByPosition(std::shared_ptr<User> &re, int pos) {
+    void setReadByPosition(std::shared_ptr<User> re, int pos) {
         findChat(re)->setReadByPosition(pos);
     }
 
@@ -47,7 +47,7 @@ public:
 
     std::shared_ptr<Chat> findChat(std::shared_ptr<User> re) {
         for(const auto &chat:chats) {
-            if(chat->getOtherName() == re->getName())
+            if(chat->getOtherName() == re->getName() || chat->getMyName() == re->getName())
                 return chat;
         }
         throw std::runtime_error("La chat cercata non è presente");

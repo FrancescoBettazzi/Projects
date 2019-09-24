@@ -24,9 +24,12 @@ int main() {
 
     try {
         a->sendMessage(b,std::make_shared<Message>(Message(a->getName(),b->getName(),"Stasera c'è la partita di calcetto, vuoi venire a fare il tifo?")));
-        //b->sendMessage(a,std::make_shared<Message>(Message(b->getName(), a->getName(),"Vengo molto volentieri!")));
-        a->setReadByPosition(b,0);
+        b->sendMessage(a,std::make_shared<Message>(Message(b->getName(), a->getName(),"Vengo molto volentieri!")));
+        b->setReadByPosition(a,0);
+        a->sendMessage(b,std::make_shared<Message>(a->getName(),b->getName(),"Allora ti aspetto!"));
+        a->setReadByPosition(b,1);
+        a->setReadByPosition(b,2);
     } catch(std::runtime_error&e) {
-        std::cerr << "Messaggio di errore: runtime_error\n" << e.what() << std::endl;
+        std::cerr << "Messaggio di errore2: runtime_error\n" << e.what() << std::endl;
     }
 }

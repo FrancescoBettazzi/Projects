@@ -128,22 +128,11 @@
       <workItem from="1569086170180" duration="4000" />
       <workItem from="1569163495365" duration="2152000" />
       <workItem from="1569312161969" duration="1476000" />
-      <workItem from="1569339738651" duration="4933000" />
+      <workItem from="1569339738651" duration="7901000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>8</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
