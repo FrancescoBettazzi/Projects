@@ -4,12 +4,13 @@
 
 #include <gtest/gtest.h>
 #include "../Message.h"
+#include "../User.h"
 
 TEST(Message, TestMessage) {
     auto f = std::make_shared<User>(User("Francesco"));
     auto a = std::make_shared<User>(User("Annalisa"));
     auto b = std::make_shared<User>(User("Benedetta"));
-    auto m = std::make_shared<Message>(Message(f,a,"Ciao"));
+    auto m = std::make_shared<Message>(Message(f->getName(),a->getName(),"Ciao"));
     m->setSender(b->getName());
     m->getSender();
     m->setRead(true);

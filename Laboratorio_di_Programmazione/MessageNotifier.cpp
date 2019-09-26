@@ -25,8 +25,12 @@ void MessageNotifier::update() {
         this->draw(subject->lastMessage()->getSender(), subject->lastMessage()->getText().substr(0,100));
 }
 
+void MessageNotifier::update2() {
+    update();
+}
+
 void MessageNotifier::draw(std::string x, std::string y) {
-    std::cout << "Ultimo messaggio da parte di " << x << ": " << y << "..." << std::endl;
+    std::cout << "Ultimo messaggio da parte di " << x << ": " << y << "...\n" << std::endl;
 }
 
 bool MessageNotifier::isActive() const {

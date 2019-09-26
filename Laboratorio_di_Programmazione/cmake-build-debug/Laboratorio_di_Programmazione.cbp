@@ -519,6 +519,10 @@
 			<Option target="core"/>
 			<Option target="runLaboratorio_di_Programmazione"/>
 		</Unit>
+		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestUser.cpp">
+			<Option target="core"/>
+			<Option target="runLaboratorio_di_Programmazione"/>
+		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>

@@ -26,11 +26,15 @@ public:
 
     int getUnreadMessages() const;
 
+    int getUnreadMessages2() const;
+
     void subscribe(std::shared_ptr<Observer> obj) override;
 
     void unsubscribe(std::shared_ptr<Observer> obj) override;
 
     void notify() override;
+
+    void notify2() override;
 
     const std::string &getMyName() const;
 
@@ -41,6 +45,8 @@ public:
     void setOtherName(const std::string &otherName);
 
     void setTextByPosition (int pos, std::string text);
+
+    const std::string &getTextByPosition(int pos);
 
 private:
     std::list<std::shared_ptr<Observer>> observers;

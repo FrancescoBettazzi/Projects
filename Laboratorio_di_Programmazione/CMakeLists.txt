@@ -9,7 +9,7 @@ add_executable(Laboratorio_di_Programmazione main.cpp Chat.cpp Chat.h IconBadgeM
 
 add_subdirectory(test)
 
-set(SOURCE_FILES ./test/runAllTests.cpp test/TestChat.cpp test/TestMessage.cpp)
+set(SOURCE_FILES ./test/runAllTests.cpp test/TestChat.cpp test/TestMessage.cpp test/TestUser.cpp)
 add_executable(TestLaboratorio_di_Programmazione main.cpp)
 add_library(core ${SOURCE_FILES})
 target_link_libraries(TestLaboratorio_di_Programmazione core)

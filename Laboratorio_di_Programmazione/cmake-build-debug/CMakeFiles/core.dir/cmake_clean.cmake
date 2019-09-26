@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/core.dir/test/runAllTests.cpp.o"
   "CMakeFiles/core.dir/test/TestChat.cpp.o"
   "CMakeFiles/core.dir/test/TestMessage.cpp.o"
-  "libcore.pdb"
+  "CMakeFiles/core.dir/test/TestUser.cpp.o"
+  "CMakeFiles/core.dir/test/runAllTests.cpp.o"
   "libcore.a"
+  "libcore.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

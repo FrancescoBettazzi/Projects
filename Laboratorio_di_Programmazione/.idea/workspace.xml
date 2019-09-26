@@ -36,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-runLaboratorio_di_Programmazione" />
+  </component>
   <component name="ProjectId" id="1R3vedinygOzvD1ldDBsHrCxXpw" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -129,6 +132,9 @@
       <workItem from="1569163495365" duration="2152000" />
       <workItem from="1569312161969" duration="1476000" />
       <workItem from="1569339738651" duration="7901000" />
+      <workItem from="1569434957275" duration="645000" />
+      <workItem from="1569440811418" duration="2638000" />
+      <workItem from="1569483199564" duration="9261000" />
     </task>
     <servers />
   </component>

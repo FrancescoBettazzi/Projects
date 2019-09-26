@@ -22,6 +22,8 @@ public:
 
     void update() override;
 
+    void update2() override;
+
     void draw(std::string x, std::string y);
 
     bool isActive() const;

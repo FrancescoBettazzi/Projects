@@ -12,7 +12,7 @@
 
 class User {
 public:
-    User(std::string n) : name(n) {
+    User(std::string n, bool re = false) : name(n) {
     }
 
     ~User() {
@@ -28,20 +28,20 @@ public:
 
     void addChat(std::shared_ptr<Chat> ch) {
         if(ch->getMyName() == this->getName() || ch->getOtherName() == this->getName())
-            chats.push_back(ch);
+                chats.push_back(ch);
         else
-            throw std::runtime_error("Error in users");
+            throw std::runtime_error("Error in users\n");
     }
 
     void removeChat(const std::shared_ptr<User> re) {
         chats.remove(findChat(re));
     }
 
-    void setReadByPosition(std::shared_ptr<User> re, int pos) {
-        findChat(re)->setReadByPosition(pos);
+    void setReadByPosition(std::shared_ptr<User> se, int pos) {
+        findChat(se)->setReadByPosition(pos);
     }
 
-    void setTextByPosition(const std::shared_ptr<User> &re, int pos, std::string &text) {
+    void setTextByPosition(const std::shared_ptr<User> &re, int pos, std::string text) {
         findChat(re)->setTextByPosition(pos,text);
     }
 
@@ -50,14 +50,19 @@ public:
             if(chat->getOtherName() == re->getName() || chat->getMyName() == re->getName())
                 return chat;
         }
-        throw std::runtime_error("La chat cercata non è presente");
+        throw std::runtime_error("La chat cercata non è presente\n");
     }
 
     void sendMessage(std::shared_ptr<User> &re, std::shared_ptr<Message> msg) {
         findChat(re)->addMessage(msg);
     }
 
+    const std::string &getTextByPosition(std::shared_ptr<User> &re, int pos) {
+        return findChat(re)->getTextByPosition(pos);
+    }
+
 private:
+    bool receiver;
     std::list<std::shared_ptr<Chat>> chats;
     std::string name;
 };

@@ -50,13 +50,6 @@ public:
         Message::text = text;
     }
 
-    bool operator==(const std::shared_ptr<Message> &right) const {
-        return (right->getText() == this->getText() && right->getSender() == this->getSender() && right->getReceiver() == this->getReceiver() && right->isRead() == this->isRead());
-    }
-
-    bool operator!=(const std::shared_ptr<Message> &right) const {
-        return !(right == std::make_shared<Message>(*this));
-    }
 private:
     bool read;
     std::string sender;

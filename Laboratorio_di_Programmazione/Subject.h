@@ -20,6 +20,8 @@ public:
     virtual void unsubscribe(std::shared_ptr<Observer> obj) = 0;
 
     virtual void notify() = 0;
+
+    virtual void notify2() = 0;
 };
 
 

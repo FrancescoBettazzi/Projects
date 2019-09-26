@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestChat.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/test/TestChat.cpp.o"
   "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestMessage.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/test/TestMessage.cpp.o"
+  "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestUser.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/test/TestUser.cpp.o"
   "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/runAllTests.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/test/runAllTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

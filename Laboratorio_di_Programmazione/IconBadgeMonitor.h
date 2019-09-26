@@ -21,7 +21,11 @@ public:
 
     void update() override;
 
+    void update2() override;
+
     void draw(int um);
+
+    void draw2(int num);
 
 private:
     std::shared_ptr<Chat> subject;

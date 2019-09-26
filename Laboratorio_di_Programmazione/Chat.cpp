@@ -14,10 +14,15 @@ Chat::~Chat() {
 }
 
 void Chat::addMessage(const std::shared_ptr<Message> newMsg) {
-    if ((myName == newMsg->getReceiver() || myName == newMsg->getSender()) && (otherName == newMsg->getSender() || otherName == newMsg->getReceiver()))
+    if ((myName == newMsg->getReceiver() || myName == newMsg->getSender()) && (otherName == newMsg->getSender() || otherName == newMsg->getReceiver())) {
         messages.push_back(newMsg);
-    if (myName == newMsg->getReceiver())
-        this->notify(); //FIXME
+        if (myName == newMsg->getReceiver())
+            this->notify();
+        else if (otherName == newMsg->getReceiver())
+            this->notify2();
+    }
+    else
+        throw std::runtime_error("Error in sender or receiver");
 }
 
 const std::shared_ptr<Message> &Chat::lastMessage() const {
@@ -28,9 +33,15 @@ void Chat::setReadByPosition(int i) {
     if (i >= 0 && i < messages.size()) {
         if (messages[i]->getSender() == otherName) {
             std::cout << "Sender: " << messages[i]->getSender() << ", Receiver : " << messages[i]->getReceiver() << std::endl;
-            std::cout << "Text: " << messages[i]->getText() << std::endl;
+            std::cout << "Text: " << messages[i]->getText() << "\n" << std::endl;
             messages[i]->setRead(true);
             this->notify();
+        }
+        else if(messages[i]->getSender() == myName) {
+            std::cout << "Sender: " << messages[i]->getSender() << ", Receiver : " << messages[i]->getReceiver() << std::endl;
+            std::cout << "Text: " << messages[i]->getText() << "\n" << std::endl;
+            messages[i]->setRead(true);
+            this->notify2();
         }
     } else
         throw std::out_of_range("The message is not present");
@@ -47,9 +58,26 @@ int Chat::getUnreadMessages() const {
     return i;
 }
 
+int Chat::getUnreadMessages2() const {
+    int i = 0;
+    for (const auto &message:messages) {
+        if (message->getReceiver() == otherName) {
+            if (!message->isRead())
+                i++;
+        }
+    }
+    return i;
+}
+
 void Chat::notify() {
     for (const auto &observer:observers)
         observer->update();
+}
+
+
+void Chat::notify2() {
+    for (const auto &observer:observers)
+        observer->update2();
 }
 
 void Chat::subscribe(std::shared_ptr<Observer> obj) {
@@ -79,3 +107,9 @@ const std::string &Chat::getOtherName() const {
 void Chat::setOtherName(const std::string &otherName) {
     Chat::otherName = otherName;
 }
+
+const std::string &Chat::getTextByPosition(int pos) {
+    return messages[pos]->getText();
+}
+
+
