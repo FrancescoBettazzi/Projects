@@ -74,10 +74,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/TestLaboratorio_di_Programmazione.dir/DependInfo.cmake"
+  "CMakeFiles/lab.dir/DependInfo.cmake"
   "CMakeFiles/core.dir/DependInfo.cmake"
   "CMakeFiles/Laboratorio_di_Programmazione.dir/DependInfo.cmake"
-  "test/CMakeFiles/runLaboratorio_di_Programmazione.dir/DependInfo.cmake"
+  "test/CMakeFiles/runAllTests.dir/DependInfo.cmake"
   "test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"

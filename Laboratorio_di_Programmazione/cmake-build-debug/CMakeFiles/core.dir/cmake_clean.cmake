@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/core.dir/Chat.cpp.o"
+  "CMakeFiles/core.dir/IconBadgeMonitor.cpp.o"
+  "CMakeFiles/core.dir/MessageNotifier.cpp.o"
   "CMakeFiles/core.dir/test/TestChat.cpp.o"
   "CMakeFiles/core.dir/test/TestMessage.cpp.o"
   "CMakeFiles/core.dir/test/TestUser.cpp.o"

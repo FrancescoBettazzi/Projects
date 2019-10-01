@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/runAllTests.dir/runAllTests.cpp.o CMakeFiles/runAllTests.dir/TestChat.cpp.o CMakeFiles/runAllTests.dir/TestMessage.cpp.o CMakeFiles/runAllTests.dir/TestUser.cpp.o  -o runAllTests ../lib/libgtestd.a ../lib/libgtest_maind.a ../libcore.a ../lib/libgtestd.a -lpthread 

@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TestLaboratorio_di_Programmazione
+# Target rules for targets named lab
 
 # Build rule for target.
-TestLaboratorio_di_Programmazione: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TestLaboratorio_di_Programmazione
-.PHONY : TestLaboratorio_di_Programmazione
+lab: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab
+.PHONY : lab
 
 # fast build rule for target.
-TestLaboratorio_di_Programmazione/fast:
-	$(MAKE) -f CMakeFiles/TestLaboratorio_di_Programmazione.dir/build.make CMakeFiles/TestLaboratorio_di_Programmazione.dir/build
-.PHONY : TestLaboratorio_di_Programmazione/fast
+lab/fast:
+	$(MAKE) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
+.PHONY : lab/fast
 
 #=============================================================================
 # Target rules for targets named core
@@ -196,17 +196,17 @@ Laboratorio_di_Programmazione/fast:
 .PHONY : Laboratorio_di_Programmazione/fast
 
 #=============================================================================
-# Target rules for targets named runLaboratorio_di_Programmazione
+# Target rules for targets named runAllTests
 
 # Build rule for target.
-runLaboratorio_di_Programmazione: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 runLaboratorio_di_Programmazione
-.PHONY : runLaboratorio_di_Programmazione
+runAllTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runAllTests
+.PHONY : runAllTests
 
 # fast build rule for target.
-runLaboratorio_di_Programmazione/fast:
-	$(MAKE) -f test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build.make test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build
-.PHONY : runLaboratorio_di_Programmazione/fast
+runAllTests/fast:
+	$(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
+.PHONY : runAllTests/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -266,6 +266,7 @@ Chat.o: Chat.cpp.o
 
 # target to build an object file
 Chat.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Chat.cpp.o
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.o
 .PHONY : Chat.cpp.o
 
@@ -275,6 +276,7 @@ Chat.i: Chat.cpp.i
 
 # target to preprocess a source file
 Chat.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Chat.cpp.i
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.i
 .PHONY : Chat.cpp.i
 
@@ -284,6 +286,7 @@ Chat.s: Chat.cpp.s
 
 # target to generate assembly for a file
 Chat.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Chat.cpp.s
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/Chat.cpp.s
 .PHONY : Chat.cpp.s
 
@@ -293,6 +296,7 @@ IconBadgeMonitor.o: IconBadgeMonitor.cpp.o
 
 # target to build an object file
 IconBadgeMonitor.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/IconBadgeMonitor.cpp.o
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.o
 .PHONY : IconBadgeMonitor.cpp.o
 
@@ -302,6 +306,7 @@ IconBadgeMonitor.i: IconBadgeMonitor.cpp.i
 
 # target to preprocess a source file
 IconBadgeMonitor.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/IconBadgeMonitor.cpp.i
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.i
 .PHONY : IconBadgeMonitor.cpp.i
 
@@ -311,6 +316,7 @@ IconBadgeMonitor.s: IconBadgeMonitor.cpp.s
 
 # target to generate assembly for a file
 IconBadgeMonitor.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/IconBadgeMonitor.cpp.s
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/IconBadgeMonitor.cpp.s
 .PHONY : IconBadgeMonitor.cpp.s
 
@@ -320,6 +326,7 @@ MessageNotifier.o: MessageNotifier.cpp.o
 
 # target to build an object file
 MessageNotifier.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MessageNotifier.cpp.o
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.o
 .PHONY : MessageNotifier.cpp.o
 
@@ -329,6 +336,7 @@ MessageNotifier.i: MessageNotifier.cpp.i
 
 # target to preprocess a source file
 MessageNotifier.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MessageNotifier.cpp.i
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.i
 .PHONY : MessageNotifier.cpp.i
 
@@ -338,6 +346,7 @@ MessageNotifier.s: MessageNotifier.cpp.s
 
 # target to generate assembly for a file
 MessageNotifier.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MessageNotifier.cpp.s
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/MessageNotifier.cpp.s
 .PHONY : MessageNotifier.cpp.s
 
@@ -347,7 +356,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/TestLaboratorio_di_Programmazione.dir/build.make CMakeFiles/TestLaboratorio_di_Programmazione.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -357,7 +366,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/TestLaboratorio_di_Programmazione.dir/build.make CMakeFiles/TestLaboratorio_di_Programmazione.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -367,7 +376,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/TestLaboratorio_di_Programmazione.dir/build.make CMakeFiles/TestLaboratorio_di_Programmazione.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/Laboratorio_di_Programmazione.dir/build.make CMakeFiles/Laboratorio_di_Programmazione.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -488,13 +497,13 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... TestLaboratorio_di_Programmazione"
+	@echo "... lab"
 	@echo "... core"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Laboratorio_di_Programmazione"
 	@echo "... list_install_components"
-	@echo "... runLaboratorio_di_Programmazione"
+	@echo "... runAllTests"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

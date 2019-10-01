@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab.dir/main.cpp.o  -o lab libcore.a 

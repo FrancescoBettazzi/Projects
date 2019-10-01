@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcore.a  CMakeFiles/core.dir/test/runAllTests.cpp.o CMakeFiles/core.dir/test/TestChat.cpp.o CMakeFiles/core.dir/test/TestMessage.cpp.o CMakeFiles/core.dir/test/TestUser.cpp.o
+/usr/bin/ar qc libcore.a  CMakeFiles/core.dir/test/runAllTests.cpp.o CMakeFiles/core.dir/test/TestChat.cpp.o CMakeFiles/core.dir/test/TestMessage.cpp.o CMakeFiles/core.dir/test/TestUser.cpp.o CMakeFiles/core.dir/Chat.cpp.o CMakeFiles/core.dir/IconBadgeMonitor.cpp.o CMakeFiles/core.dir/MessageNotifier.cpp.o
 /usr/bin/ranlib libcore.a

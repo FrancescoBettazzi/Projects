@@ -47,8 +47,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TestLaboratorio_di_Programmazione">
-				<Option output="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/TestLaboratorio_di_Programmazione" prefix_auto="0" extension_auto="0"/>
+			<Target title="lab">
+				<Option output="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/lab" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -64,14 +64,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestLaboratorio_di_Programmazione"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TestLaboratorio_di_Programmazione/fast">
-				<Option output="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/TestLaboratorio_di_Programmazione" prefix_auto="0" extension_auto="0"/>
+			<Target title="lab/fast">
+				<Option output="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/lab" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -87,7 +87,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestLaboratorio_di_Programmazione/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -215,8 +215,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="runLaboratorio_di_Programmazione">
-				<Option output="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/runLaboratorio_di_Programmazione" prefix_auto="0" extension_auto="0"/>
+			<Target title="runAllTests">
+				<Option output="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/runAllTests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -234,14 +234,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runLaboratorio_di_Programmazione"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runAllTests"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="runLaboratorio_di_Programmazione/fast">
-				<Option output="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/runLaboratorio_di_Programmazione" prefix_auto="0" extension_auto="0"/>
+			<Target title="runAllTests/fast">
+				<Option output="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/runAllTests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -259,7 +259,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runLaboratorio_di_Programmazione/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runAllTests/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
@@ -475,13 +475,14 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.cpp">
+			<Option target="core"/>
 			<Option target="Laboratorio_di_Programmazione"/>
-			<Option target="runLaboratorio_di_Programmazione"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.h">
 			<Option target="Laboratorio_di_Programmazione"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.cpp">
+			<Option target="core"/>
 			<Option target="Laboratorio_di_Programmazione"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.h">
@@ -491,6 +492,7 @@
 			<Option target="Laboratorio_di_Programmazione"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.cpp">
+			<Option target="core"/>
 			<Option target="Laboratorio_di_Programmazione"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.h">
@@ -509,20 +511,20 @@
 			<Option target="Laboratorio_di_Programmazione"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/main.cpp">
-			<Option target="TestLaboratorio_di_Programmazione"/>
+			<Option target="lab"/>
 			<Option target="Laboratorio_di_Programmazione"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestChat.cpp">
 			<Option target="core"/>
-			<Option target="runLaboratorio_di_Programmazione"/>
+			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestMessage.cpp">
 			<Option target="core"/>
-			<Option target="runLaboratorio_di_Programmazione"/>
+			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestUser.cpp">
 			<Option target="core"/>
-			<Option target="runLaboratorio_di_Programmazione"/>
+			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
@@ -538,7 +540,7 @@
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/runAllTests.cpp">
 			<Option target="core"/>
-			<Option target="runLaboratorio_di_Programmazione"/>
+			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

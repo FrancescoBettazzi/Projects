@@ -1,7 +1,7 @@
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/install/strip.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/install/local.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/install.dir
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/TestLaboratorio_di_Programmazione.dir
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/lab.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/edit_cache.dir
@@ -9,11 +9,11 @@
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/list_install_components.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/install/strip.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/edit_cache.dir
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/runLaboratorio_di_Programmazione.dir
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/install.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/runAllTests.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/list_install_components.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/install/local.dir
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/CMakeFiles/install.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/lib/googletest-master/CMakeFiles/install/strip.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/lib/googletest-master/CMakeFiles/install.dir
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/test/lib/googletest-master/CMakeFiles/install/local.dir

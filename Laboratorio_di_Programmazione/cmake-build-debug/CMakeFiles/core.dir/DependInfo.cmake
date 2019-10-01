@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/Chat.cpp.o"
+  "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/IconBadgeMonitor.cpp.o"
+  "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/MessageNotifier.cpp.o"
   "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestChat.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/test/TestChat.cpp.o"
   "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestMessage.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/test/TestMessage.cpp.o"
   "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestUser.cpp" "/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles/core.dir/test/TestUser.cpp.o"

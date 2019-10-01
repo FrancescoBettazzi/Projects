@@ -109,12 +109,54 @@ CMakeFiles/core.dir/test/TestUser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/test/TestUser.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestUser.cpp -o CMakeFiles/core.dir/test/TestUser.cpp.s
 
+CMakeFiles/core.dir/Chat.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Chat.cpp.o: ../Chat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/Chat.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/Chat.cpp.o -c /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.cpp
+
+CMakeFiles/core.dir/Chat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Chat.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.cpp > CMakeFiles/core.dir/Chat.cpp.i
+
+CMakeFiles/core.dir/Chat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Chat.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.cpp -o CMakeFiles/core.dir/Chat.cpp.s
+
+CMakeFiles/core.dir/IconBadgeMonitor.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/IconBadgeMonitor.cpp.o: ../IconBadgeMonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core.dir/IconBadgeMonitor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/IconBadgeMonitor.cpp.o -c /home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.cpp
+
+CMakeFiles/core.dir/IconBadgeMonitor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/IconBadgeMonitor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.cpp > CMakeFiles/core.dir/IconBadgeMonitor.cpp.i
+
+CMakeFiles/core.dir/IconBadgeMonitor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/IconBadgeMonitor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.cpp -o CMakeFiles/core.dir/IconBadgeMonitor.cpp.s
+
+CMakeFiles/core.dir/MessageNotifier.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/MessageNotifier.cpp.o: ../MessageNotifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/core.dir/MessageNotifier.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/MessageNotifier.cpp.o -c /home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.cpp
+
+CMakeFiles/core.dir/MessageNotifier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/MessageNotifier.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.cpp > CMakeFiles/core.dir/MessageNotifier.cpp.i
+
+CMakeFiles/core.dir/MessageNotifier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/MessageNotifier.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.cpp -o CMakeFiles/core.dir/MessageNotifier.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/test/runAllTests.cpp.o" \
 "CMakeFiles/core.dir/test/TestChat.cpp.o" \
 "CMakeFiles/core.dir/test/TestMessage.cpp.o" \
-"CMakeFiles/core.dir/test/TestUser.cpp.o"
+"CMakeFiles/core.dir/test/TestUser.cpp.o" \
+"CMakeFiles/core.dir/Chat.cpp.o" \
+"CMakeFiles/core.dir/IconBadgeMonitor.cpp.o" \
+"CMakeFiles/core.dir/MessageNotifier.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -123,9 +165,12 @@ libcore.a: CMakeFiles/core.dir/test/runAllTests.cpp.o
 libcore.a: CMakeFiles/core.dir/test/TestChat.cpp.o
 libcore.a: CMakeFiles/core.dir/test/TestMessage.cpp.o
 libcore.a: CMakeFiles/core.dir/test/TestUser.cpp.o
+libcore.a: CMakeFiles/core.dir/Chat.cpp.o
+libcore.a: CMakeFiles/core.dir/IconBadgeMonitor.cpp.o
+libcore.a: CMakeFiles/core.dir/MessageNotifier.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Laboratorio_di_Programmazione" targetName="core" />
       <config projectName="Laboratorio_di_Programmazione" targetName="gmock" />
-      <config projectName="Laboratorio_di_Programmazione" targetName="runLaboratorio_di_Programmazione" />
-      <config projectName="Laboratorio_di_Programmazione" targetName="gmock_main" />
-      <config projectName="Laboratorio_di_Programmazione" targetName="gtest_main" />
       <config projectName="Laboratorio_di_Programmazione" targetName="Laboratorio_di_Programmazione" />
+      <config projectName="Laboratorio_di_Programmazione" targetName="runAllTests" />
+      <config projectName="Laboratorio_di_Programmazione" targetName="core" />
+      <config projectName="Laboratorio_di_Programmazione" targetName="gtest_main" />
+      <config projectName="Laboratorio_di_Programmazione" targetName="gmock_main" />
+      <config projectName="Laboratorio_di_Programmazione" targetName="lab" />
       <config projectName="Laboratorio_di_Programmazione" targetName="gtest" />
-      <config projectName="Laboratorio_di_Programmazione" targetName="TestLaboratorio_di_Programmazione" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -56,13 +56,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.runLaboratorio_di_Programmazione">
+  <component name="RunManager" selected="CMake Application.runAllTests">
     <configuration name="Laboratorio_di_Programmazione" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Laboratorio_di_Programmazione" TARGET_NAME="Laboratorio_di_Programmazione" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Laboratorio_di_Programmazione" RUN_TARGET_NAME="Laboratorio_di_Programmazione">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLaboratorio_di_Programmazione" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Laboratorio_di_Programmazione" TARGET_NAME="TestLaboratorio_di_Programmazione" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Laboratorio_di_Programmazione" RUN_TARGET_NAME="TestLaboratorio_di_Programmazione">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -92,16 +87,21 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runLaboratorio_di_Programmazione" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Laboratorio_di_Programmazione" TARGET_NAME="runLaboratorio_di_Programmazione" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Laboratorio_di_Programmazione" RUN_TARGET_NAME="runLaboratorio_di_Programmazione">
+    <configuration name="lab" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Laboratorio_di_Programmazione" TARGET_NAME="lab" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Laboratorio_di_Programmazione" RUN_TARGET_NAME="lab">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runAllTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Laboratorio_di_Programmazione" TARGET_NAME="runAllTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Laboratorio_di_Programmazione" RUN_TARGET_NAME="runAllTests">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="CMake Application.core" />
+      <item itemvalue="CMake Application.lab" />
       <item itemvalue="CMake Application.Laboratorio_di_Programmazione" />
-      <item itemvalue="CMake Application.TestLaboratorio_di_Programmazione" />
-      <item itemvalue="CMake Application.runLaboratorio_di_Programmazione" />
+      <item itemvalue="CMake Application.runAllTests" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
@@ -139,6 +139,7 @@
       <workItem from="1569916807521" duration="2177000" />
       <workItem from="1569931569920" duration="1078000" />
       <workItem from="1569949434648" duration="1171000" />
+      <workItem from="1569951608595" duration="420000" />
     </task>
     <servers />
   </component>

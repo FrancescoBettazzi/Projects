@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/francesco/CLionProjects/Laboratorio_di_Programmazione/c
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TestLaboratorio_di_Programmazione.dir/all
+all: CMakeFiles/lab.dir/all
 all: CMakeFiles/core.dir/all
 all: CMakeFiles/Laboratorio_di_Programmazione.dir/all
 all: test/all
@@ -61,7 +61,7 @@ all: test/all
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TestLaboratorio_di_Programmazione.dir/clean
+clean: CMakeFiles/lab.dir/clean
 clean: CMakeFiles/core.dir/clean
 clean: CMakeFiles/Laboratorio_di_Programmazione.dir/clean
 clean: test/clean
@@ -74,31 +74,31 @@ preinstall: test/preinstall
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/TestLaboratorio_di_Programmazione.dir
+# Target rules for target CMakeFiles/lab.dir
 
 # All Build rule for target.
-CMakeFiles/TestLaboratorio_di_Programmazione.dir/all: CMakeFiles/core.dir/all
-	$(MAKE) -f CMakeFiles/TestLaboratorio_di_Programmazione.dir/build.make CMakeFiles/TestLaboratorio_di_Programmazione.dir/depend
-	$(MAKE) -f CMakeFiles/TestLaboratorio_di_Programmazione.dir/build.make CMakeFiles/TestLaboratorio_di_Programmazione.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target TestLaboratorio_di_Programmazione"
-.PHONY : CMakeFiles/TestLaboratorio_di_Programmazione.dir/all
+CMakeFiles/lab.dir/all: CMakeFiles/core.dir/all
+	$(MAKE) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/depend
+	$(MAKE) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target lab"
+.PHONY : CMakeFiles/lab.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TestLaboratorio_di_Programmazione.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TestLaboratorio_di_Programmazione.dir/all
+CMakeFiles/lab.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 10
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lab.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/TestLaboratorio_di_Programmazione.dir/rule
+.PHONY : CMakeFiles/lab.dir/rule
 
 # Convenience name for target.
-TestLaboratorio_di_Programmazione: CMakeFiles/TestLaboratorio_di_Programmazione.dir/rule
+lab: CMakeFiles/lab.dir/rule
 
-.PHONY : TestLaboratorio_di_Programmazione
+.PHONY : lab
 
 # clean rule for target.
-CMakeFiles/TestLaboratorio_di_Programmazione.dir/clean:
-	$(MAKE) -f CMakeFiles/TestLaboratorio_di_Programmazione.dir/build.make CMakeFiles/TestLaboratorio_di_Programmazione.dir/clean
-.PHONY : CMakeFiles/TestLaboratorio_di_Programmazione.dir/clean
+CMakeFiles/lab.dir/clean:
+	$(MAKE) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/clean
+.PHONY : CMakeFiles/lab.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/core.dir
@@ -107,12 +107,12 @@ CMakeFiles/TestLaboratorio_di_Programmazione.dir/clean:
 CMakeFiles/core.dir/all:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/depend
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=8,9,10,11,12 "Built target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10,11,12,13 "Built target core"
 .PHONY : CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/core.dir/rule
@@ -158,13 +158,13 @@ CMakeFiles/Laboratorio_di_Programmazione.dir/clean:
 # Directory level rules for directory test
 
 # Recursive "all" directory target.
-test/all: test/CMakeFiles/runLaboratorio_di_Programmazione.dir/all
+test/all: test/CMakeFiles/runAllTests.dir/all
 test/all: test/lib/googletest-master/all
 
 .PHONY : test/all
 
 # Recursive "clean" directory target.
-test/clean: test/CMakeFiles/runLaboratorio_di_Programmazione.dir/clean
+test/clean: test/CMakeFiles/runAllTests.dir/clean
 test/clean: test/lib/googletest-master/clean
 
 .PHONY : test/clean
@@ -175,33 +175,33 @@ test/preinstall: test/lib/googletest-master/preinstall
 .PHONY : test/preinstall
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/runLaboratorio_di_Programmazione.dir
+# Target rules for target test/CMakeFiles/runAllTests.dir
 
 # All Build rule for target.
-test/CMakeFiles/runLaboratorio_di_Programmazione.dir/all: CMakeFiles/core.dir/all
-test/CMakeFiles/runLaboratorio_di_Programmazione.dir/all: test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
-test/CMakeFiles/runLaboratorio_di_Programmazione.dir/all: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) -f test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build.make test/CMakeFiles/runLaboratorio_di_Programmazione.dir/depend
-	$(MAKE) -f test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build.make test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=21,22,23,24,25,26 "Built target runLaboratorio_di_Programmazione"
-.PHONY : test/CMakeFiles/runLaboratorio_di_Programmazione.dir/all
+test/CMakeFiles/runAllTests.dir/all: CMakeFiles/core.dir/all
+test/CMakeFiles/runAllTests.dir/all: test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
+test/CMakeFiles/runAllTests.dir/all: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/depend
+	$(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=24,25,26,27,28 "Built target runAllTests"
+.PHONY : test/CMakeFiles/runAllTests.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/runLaboratorio_di_Programmazione.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 15
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runLaboratorio_di_Programmazione.dir/all
+test/CMakeFiles/runAllTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 17
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runAllTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles 0
-.PHONY : test/CMakeFiles/runLaboratorio_di_Programmazione.dir/rule
+.PHONY : test/CMakeFiles/runAllTests.dir/rule
 
 # Convenience name for target.
-runLaboratorio_di_Programmazione: test/CMakeFiles/runLaboratorio_di_Programmazione.dir/rule
+runAllTests: test/CMakeFiles/runAllTests.dir/rule
 
-.PHONY : runLaboratorio_di_Programmazione
+.PHONY : runAllTests
 
 # clean rule for target.
-test/CMakeFiles/runLaboratorio_di_Programmazione.dir/clean:
-	$(MAKE) -f test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build.make test/CMakeFiles/runLaboratorio_di_Programmazione.dir/clean
-.PHONY : test/CMakeFiles/runLaboratorio_di_Programmazione.dir/clean
+test/CMakeFiles/runAllTests.dir/clean:
+	$(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/clean
+.PHONY : test/CMakeFiles/runAllTests.dir/clean
 
 #=============================================================================
 # Directory level rules for directory test/lib/googletest-master
@@ -251,7 +251,7 @@ test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: test/lib/go
 test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target gmock_main"
 .PHONY : test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +278,7 @@ test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean:
 test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target gmock"
 .PHONY : test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -325,7 +325,7 @@ test/lib/googletest-master/googletest/preinstall:
 test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build.make test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build.make test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target gtest_main"
 .PHONY : test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -352,7 +352,7 @@ test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/clean:
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build.make test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build.make test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target gtest"
 .PHONY : test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
