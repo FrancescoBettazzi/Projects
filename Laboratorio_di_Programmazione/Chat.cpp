@@ -9,7 +9,7 @@ Chat::Chat(std::string se, std::string re) : myName(se), otherName(re) {
 }
 
 Chat::~Chat() {
-    for (auto obs:observers)
+    for (const auto &obs:observers)
         unsubscribe(obs);
 }
 
@@ -88,8 +88,12 @@ void Chat::unsubscribe(std::shared_ptr<Observer> obj) {
     observers.remove(obj);
 }
 
-void Chat::setTextByPosition(int pos, std::string text) {
-    this->messages[pos]->setText(text);
+void Chat::setTextByPosition(int i, std::string text) {
+    if (i >= 0 && i < messages.size()) {
+        this->messages[i]->setText(text);
+    }
+    else
+        throw std::out_of_range("The position is not present");
 }
 
 const std::string &Chat::getMyName() const {

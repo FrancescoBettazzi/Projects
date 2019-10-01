@@ -14,6 +14,7 @@
 
 class Chat : public Subject {
 public:
+    Chat() = default;
     explicit Chat(std::string se, std::string re);
 
     ~Chat();

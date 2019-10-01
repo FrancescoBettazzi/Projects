@@ -36,13 +36,10 @@
       </list>
     </option>
   </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-runLaboratorio_di_Programmazione" />
-  </component>
   <component name="ProjectId" id="1R3vedinygOzvD1ldDBsHrCxXpw" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Scaricati/CChat-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -59,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Laboratorio_di_Programmazione">
+  <component name="RunManager" selected="CMake Application.runLaboratorio_di_Programmazione">
     <configuration name="Laboratorio_di_Programmazione" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Laboratorio_di_Programmazione" TARGET_NAME="Laboratorio_di_Programmazione" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Laboratorio_di_Programmazione" RUN_TARGET_NAME="Laboratorio_di_Programmazione">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -135,6 +132,13 @@
       <workItem from="1569434957275" duration="645000" />
       <workItem from="1569440811418" duration="2638000" />
       <workItem from="1569483199564" duration="9261000" />
+      <workItem from="1569601399668" duration="2913000" />
+      <workItem from="1569771675934" duration="500000" />
+      <workItem from="1569864617829" duration="856000" />
+      <workItem from="1569865857021" duration="1505000" />
+      <workItem from="1569916807521" duration="2177000" />
+      <workItem from="1569931569920" duration="1078000" />
+      <workItem from="1569949434648" duration="1171000" />
     </task>
     <servers />
   </component>

@@ -476,6 +476,7 @@
 		</Build>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.cpp">
 			<Option target="Laboratorio_di_Programmazione"/>
+			<Option target="runLaboratorio_di_Programmazione"/>
 		</Unit>
 		<Unit filename="/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.h">
 			<Option target="Laboratorio_di_Programmazione"/>

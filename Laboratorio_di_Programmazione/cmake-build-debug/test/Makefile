@@ -252,6 +252,33 @@ TestUser.cpp.s:
 	cd /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build.make test/CMakeFiles/runLaboratorio_di_Programmazione.dir/TestUser.cpp.s
 .PHONY : TestUser.cpp.s
 
+__/Chat.o: __/Chat.cpp.o
+
+.PHONY : __/Chat.o
+
+# target to build an object file
+__/Chat.cpp.o:
+	cd /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build.make test/CMakeFiles/runLaboratorio_di_Programmazione.dir/__/Chat.cpp.o
+.PHONY : __/Chat.cpp.o
+
+__/Chat.i: __/Chat.cpp.i
+
+.PHONY : __/Chat.i
+
+# target to preprocess a source file
+__/Chat.cpp.i:
+	cd /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build.make test/CMakeFiles/runLaboratorio_di_Programmazione.dir/__/Chat.cpp.i
+.PHONY : __/Chat.cpp.i
+
+__/Chat.s: __/Chat.cpp.s
+
+.PHONY : __/Chat.s
+
+# target to generate assembly for a file
+__/Chat.cpp.s:
+	cd /home/francesco/CLionProjects/Laboratorio_di_Programmazione/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runLaboratorio_di_Programmazione.dir/build.make test/CMakeFiles/runLaboratorio_di_Programmazione.dir/__/Chat.cpp.s
+.PHONY : __/Chat.cpp.s
+
 runAllTests.o: runAllTests.cpp.o
 
 .PHONY : runAllTests.o
@@ -301,6 +328,9 @@ help:
 	@echo "... TestUser.o"
 	@echo "... TestUser.i"
 	@echo "... TestUser.s"
+	@echo "... __/Chat.o"
+	@echo "... __/Chat.i"
+	@echo "... __/Chat.s"
 	@echo "... runAllTests.o"
 	@echo "... runAllTests.i"
 	@echo "... runAllTests.s"
