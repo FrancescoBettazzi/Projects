@@ -20,18 +20,6 @@ vector
 memory
 -
 
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.cpp
-IconBadgeMonitor.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.h
-
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/IconBadgeMonitor.h
-Observer.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Observer.h
-Chat.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.h
-memory
--
-
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Message.h
 iostream
 -
@@ -39,20 +27,6 @@ memory
 -
 Schedule.h
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Schedule.h
-
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.cpp
-MessageNotifier.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.h
-
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/MessageNotifier.h
-Observer.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Observer.h
-Chat.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.h
-Message.h
-/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Message.h
-memory
--
 
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Observer.h
 iostream
@@ -75,4 +49,20 @@ Observer.h
 /home/francesco/CLionProjects/Laboratorio_di_Programmazione/Observer.h
 memory
 -
+
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/User.h
+list
+-
+iostream
+-
+memory
+-
+Chat.h
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/Chat.h
+
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/TestUser.cpp
+gtest/gtest.h
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/test/gtest/gtest.h
+../User.h
+/home/francesco/CLionProjects/Laboratorio_di_Programmazione/User.h
 

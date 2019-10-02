@@ -62,7 +62,6 @@ public:
     }
 
 private:
-    bool receiver;
     std::list<std::shared_ptr<Chat>> chats;
     std::string name;
 };
